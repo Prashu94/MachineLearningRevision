@@ -1,0 +1,13 @@
+1. A Numpy Array essentially contains a single pointer to one contigous block of data.
+2. A Python List contains a pointer to a block of pointers, each of which points to a full Python object like Python integer.
+
+
+Broadcasting:
+1. Allows binary operations to be performed on arrays of different sizes.
+2. Rules of Broadcasting
+i. Rule 1:
+- If 2 arrays differ in dimensions, the shape of the one with fewer dimensions is padded with ones on its leading (left) side.
+ii. Rule 2:
+- If the shape of 2 arrays does not match in any dimension, the array with shape equal to 1 in that dimension is stretched to match other shape.
+iii. Rule 3:
+- If in any dimension the sizes disagree and neither is equal to 1, an error is raised.

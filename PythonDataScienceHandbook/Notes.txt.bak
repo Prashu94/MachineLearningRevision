@@ -1,0 +1,6 @@
+1. A Numpy Array essentially contains a single pointer to one contigous block of data.
+2. A Python List contains a pointer to a block of pointers, each of which points to a full Python object like Python integer.
+
+
+Broadcasting:
+1. Allows binary operations to be performed on arrays of different sizes.
